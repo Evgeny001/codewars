@@ -13,3 +13,9 @@ function isPalindrome(x) {
  function toFreud(string) {
    return string.split(" ").map(word => word.trim() ? "sex" : "").join(" ");
  }
+
+// new code
+
+function validateHello(greetings) {
+   return /hello|ciao|salut|hallo|hola|ahoj|czesc/.test(greetings.toLowerCase())
+ }

@@ -7,3 +7,9 @@ function isPalindrome(x) {
    }
    return true;
  }
+
+ //new code
+ 
+ function toFreud(string) {
+   return string.split(" ").map(word => word.trim() ? "sex" : "").join(" ");
+ }

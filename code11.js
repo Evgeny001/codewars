@@ -7,7 +7,7 @@ const areaOrPerimeter = function(l , w) {
  // new code 
  
 function updateLight(current) {
-   
+
   switch (current) {
   case "green":
     return "yellow";
@@ -23,3 +23,9 @@ function updateLight(current) {
   }
 
 }
+
+ // new code 
+ 
+function simpleMultiplication(number) {
+   return number % 2 === 0 ? number * 8 : number * 9;
+ }
